@@ -89,7 +89,7 @@ class App extends Component {
   };
 
   render() {
-    const { searchQuery, images, isLoading, showModal, modalImageURL } = this.state;
+    const { images, isLoading, showModal, modalImageURL } = this.state;
 
     return (
       <div className={css.App}>
